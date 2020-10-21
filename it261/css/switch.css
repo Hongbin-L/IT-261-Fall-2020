@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color:#fff;
+}
+
+main.wrapper {
+    background-color:#fff;
+    overflow:auto;
+}
+
+h1>a {
+    text-decoration: none;
+    color:#000;
+    margin-bottom: 15px;
+}
+
+
+.logo {
+    margin-left:1%;
+    text-shadow:1px 1px;
+    font-size:1.25em;
+}
+
+
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: auto;
+    max-width: 98%;
+} 
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+footer {
+	clear:both;
+    text-align:center;
+    padding: 1em;
+}
+
+
+@media all and (min-width:1400px) {
+	
+   main.wrapper {
+		width: 70%;
+		margin: auto;
+	}
+
+    section {
+		width:65%;
+		float:left;
+        padding: 40px;
+	}
+	
+     aside {
+        background-color: lightyellow;
+		width:34%;
+		float:right;
+        padding: 40px;
+	}
+			
+    img.desktop {
+      		float: inherit;
+       		width:100%;
+            display:inline-block;
+    }
+
+#cssmenu ul li{
+    color: #333;
+    display: inline-block;
+    padding:1rem;
+    position: relative;
+}
+
+#cssmenu ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 12px;
+
+}
+
+#cssmenu ul li ul{
+    display: none;
+}
+
+#cssmenu ul li:hover{
+    cursor: pointer;
+    background: var(--primary-color);
+}
+
+
+#cssmenu ul li:hover ul{
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 200px;
+    margin-top: 1rem;
+}
+
+#cssmenu ul li:hover ul li{
+    display: block;
+}
+
+#cssmenu ul li:hover ul li a{
+    color: #fff;
+}
+
+#cssmenu ul li:hover ul li:hover{
+    color: inherit;
+}

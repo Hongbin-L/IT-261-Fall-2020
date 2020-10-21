@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#cssmenu ul{
+    background-color: mediumpurple;
+}
+
+#cssmenu ul li{
+    color: #333;
+    display: inline-block;
+    padding:1rem;
+    position: relative;
+}
+
+#cssmenu ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 12px;
+
+}
+
+#cssmenu ul li ul{
+    display: none;
+}
+
+#cssmenu ul li:hover{
+    cursor: pointer;
+    background: var(--primary-color);
+    color: rebeccapurple;
+}
+
+#cssmenu ul li:hover a{
+    color: rebeccapurple;
+}
+
+#cssmenu ul li:hover ul{
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 200px;
+    margin-top: 1rem;
+}
+
+#cssmenu ul li:hover ul li{
+    display: block;
+    background-color: mediumpurple;
+}
+
+#cssmenu ul li:hover ul li a{
+    color: #fff;
+}
+
+#cssmenu ul li:hover ul li:hover{
+    background-color: rebeccapurple;
+    color: inherit;
+}
