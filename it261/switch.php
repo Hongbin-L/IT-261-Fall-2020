@@ -143,22 +143,22 @@ switch($today){
         
             <li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i>Week4</span></a>
         <ul>
-            <li><a href="#"><span>Troubleshoot</span></a></li>
-            <li><a href="#"><span>W4 Exercises</span></a></li>
+            <li><a href="troubleshoot.php"><span>Troubleshoot</span></a></li>
+            <li><a href="w4exercises.php"><span>W4 Exercises</span></a></li>
         </ul>
             </li>
         
             <li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i>Week5</span></a>
         <ul>
-            <li><a href="#"><span>Calculator</span></a></li>
-            <li><a href="#"><span>W5 Exercises</span></a></li>
+            <li><a href="calculator.php"><span>Calculator</span></a></li>
+            <li><a href="w5exercises.php"><span>W5 Exercises</span></a></li>
         </ul>
             </li>
             
             <li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i>Week6</span></a>
         <ul>
             <li><a href="#"><span>Email</span></a></li>
-            <li><a href="#"><span>W6 Exercises</span></a></li>
+            <li><a href="w6exercises.php"><span>W6 Exercises</span></a></li>
         </ul>
             </li>
         
@@ -180,7 +180,7 @@ switch($today){
 </header>
         
 <section>
- <h1><?php echo $star;  ?></h1>
+ <h2><?php echo $star;  ?></h2>
             <img src="images/<?php echo $pic;   ?>" alt="<?php echo $alt;   ?>">
             <p><?php echo $content; ?></p>
         
@@ -188,7 +188,7 @@ switch($today){
 </section>
 
          <aside>
-             <h1>Big Dipper</h1>
+             <h3>Big Dipper</h3>
              <img src="images/bigdipper.jpg" alt="bigdipper">
             <h2>Click below to find out the Big Dipper stars of the day for the week!</h2>
             <ul>
@@ -203,7 +203,7 @@ switch($today){
         </aside>
     
 <footer>
-  <p><small>&copy; 2020 - <?=date('Y')?> by Hongbin Liu, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
+  <p><small>&copy; 2020 - <?=date('Y')?> by Hongbin Liu, All Rights Reserved ~ <a href="https://validator.w3.org/check?uri=referer" target="_blank">Valid HTML</a> ~ <a href="https://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
 </footer>
 
 </main>

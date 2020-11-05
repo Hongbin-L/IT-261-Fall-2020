@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>W3 Exercises</title>
+<title>W4 Exercises</title>
 <meta charset="utf-8">
 <script src="https://use.fontawesome.com/6a71565c22.js"></script>
 <link rel="stylesheet" href="css/nav.css" />
@@ -11,7 +11,7 @@
 <body>
 <main class="wrapper">
 <header>
-  <h1><a href="index.php"><i class="logo fa fa-pencil"></i> W3 Exercises</a></h1>
+  <h1><a href="index.php"><i class="logo fa fa-pencil"></i> W4 Exercises</a></h1>
 <nav id="cssmenu">
     <ul>
       <li><a href="index.php">Welcome</a></li>
@@ -72,12 +72,10 @@
         
 <section>
 <h2>Weekly Exercises</h2>
-            <h3>Week 3</h3>
+            <h3>Week 4</h3>
             <ul>
-                <li><a href="week3/arrays.php">arrays.php</a></li>
-                <li><a href="week3/html-page.php">html-page.php</a></li>
-                <li><a href="week3/if.php">if.php</a></li>
-                <li><a href="switch.php">switch.php</a></li>
+                <li><a href="week4/form1.php">form1.php</a></li>
+                <li><a href="week4/form2.php">form2.php</a></li>
             </ul>
 </section>
 

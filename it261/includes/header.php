@@ -28,28 +28,28 @@
             
         <ul>
             <li><a href="switch.php"><span>Switch</span></a></li>
-            <li><a href="#"><span>W3 Exercises</span></a></li>
+            <li><a href="wexercises.php"><span>W3 Exercises</span></a></li>
         </ul>
         </li>
         
             <li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i>Week4</span></a>
         <ul>
-            <li><a href="#"><span>Troubleshoot</span></a></li>
-            <li><a href="#"><span>W4 Exercises</span></a></li>
+            <li><a href="troubleshoot.php"><span>Troubleshoot</span></a></li>
+            <li><a href="w4exercises.php"><span>W4 Exercises</span></a></li>
         </ul>
             </li>
         
             <li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i>Week5</span></a>
         <ul>
-            <li><a href="#"><span>Calculator</span></a></li>
-            <li><a href="#"><span>W5 Exercises</span></a></li>
+            <li><a href="calculator.php"><span>Calculator</span></a></li>
+            <li><a href="w5exercises.php"><span>W5 Exercises</span></a></li>
         </ul>
             </li>
             
             <li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i>Week6</span></a>
         <ul>
             <li><a href="#"><span>Email</span></a></li>
-            <li><a href="#"><span>W6 Exercises</span></a></li>
+            <li><a href="w6exercises.php"><span>W6 Exercises</span></a></li>
         </ul>
             </li>
         

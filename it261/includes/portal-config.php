@@ -47,22 +47,40 @@ switch(THIS_PAGE){
         $PageID = 'W3 Exercises';
     break;
         
-    case 'week4.php':
-        $title = "Week4";
+    case 'troubleshoot.php':
+        $title = "Troubleshoot";
         $logo = "fa-pencil";
-        $PageID = 'Week4';
+        $PageID = 'Troubleshoot';
     break;
         
-    case 'week5.php':
-        $title = "Week5";
+    case 'w4exercises.php':
+        $title = "W4 Exercises";
         $logo = "fa-pencil";
-        $PageID = 'Week5';
+        $PageID = 'W4 Exercises';
+    break;
+        
+    case 'calculator.php':
+        $title = "Calculator";
+        $logo = "fa-pencil";
+        $PageID = 'Calculato';
+    break;
+        
+    case 'w5exercises.php':
+        $title = "W5 Exercises";
+        $logo = "fa-pencil";
+        $PageID = 'W5 Exercises';
     break;
         
     case 'week6.php':
         $title = "Week6";
         $logo = "fa-pencil";
         $PageID = 'Week6';
+    break;
+        
+    case 'w6exercises.php':
+        $title = "W6 Exercises";
+        $logo = "fa-pencil";
+        $PageID = 'W6 Exercises';
     break;
         
     case 'week7.php':
@@ -88,9 +106,12 @@ $nav1['screenshot.php'] = "Screenshot";
 $nav1['w2exercises.php'] = "W2 Exercises";
 $nav1['switch.php'] = "Switch";
 $nav1['w3exercises.php'] = "W3 Exercises";
-$nav1['week4.php'] = "Week4";
-$nav1['week5.php'] = "Week5";
+$nav1['troubleshoot.php'] = "Troubleshoot";
+$nav1['w4exercises.php'] = "W4 Exercises";
+$nav1['calculator.php'] = "Calculato";
+$nav1['w5exercises.php'] = "W5 Exercises";
 $nav1['week6.php'] = "Week6";
+$nav1['w6exercises.php'] = "W6 Exercises";
 $nav1['week7.php'] = "Week7";
 $nav1['week8.php'] = "Week8";
 

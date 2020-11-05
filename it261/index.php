@@ -34,22 +34,22 @@
         
             <li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i>Week4</span></a>
         <ul>
-            <li><a href="#"><span>Troubleshoot</span></a></li>
-            <li><a href="#"><span>W4 Exercises</span></a></li>
+            <li><a href="troubleshoot.php"><span>Troubleshoot</span></a></li>
+            <li><a href="w4exercises.php"><span>W4 Exercises</span></a></li>
         </ul>
             </li>
         
             <li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i>Week5</span></a>
         <ul>
-            <li><a href="#"><span>Calculator</span></a></li>
-            <li><a href="#"><span>W5 Exercises</span></a></li>
+            <li><a href="calculator.php"><span>Calculator</span></a></li>
+            <li><a href="w5exercises.php"><span>W5 Exercises</span></a></li>
         </ul>
             </li>
             
             <li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i>Week6</span></a>
         <ul>
             <li><a href="#"><span>Email</span></a></li>
-            <li><a href="#"><span>W6 Exercises</span></a></li>
+            <li><a href="w6exercises.php"><span>W6 Exercises</span></a></li>
         </ul>
             </li>
         
@@ -67,7 +67,8 @@
         </ul>
             </li>
     </ul>
-  </nav>
+</nav>
+    
 </header>
         
 <section>
@@ -119,23 +120,24 @@
             
             <h3>Week 4</h3>
             <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
+                <li><a href="week4/form1.php">form1.php</a></li>
+                <li><a href="week4/form2.php">form2.php</a></li>
             </ul>
             
             <h3>Week 5</h3>
             <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
+                <li><a href="adder-group.php">adder-group.php</a></li>
+                <li><a href="week5/currency-form.php">currency-form.php</a></li>
+                <li><a href="week5/currency-form-sticky.php">currency-form-sticky.php</a></li>
+                <li><a href="week5/currency-form-final.php">currency-form-final.php</a></li>
             </ul>
         
             <h3>Week 6</h3>
             <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
+                <li><a href="week6/form-emailable.php">form-emailable.php</a></li>
+                <li><a href="week6/functions.php">functions.php</a></li>
+                <li><a href="week6/website/index.php">website</a></li>
+                <li><a href="week6/random-count.php">random-count.php</a></li>
             </ul>
         
             <h3>Week 7</h3>
@@ -154,9 +156,8 @@
 </aside>
     
 <footer>
-  <p><small>&copy; 2020 - <?=date('Y')?> by Hongbin Liu, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
+  <p><small>&copy; 2020 - <?=date('Y')?> by Hongbin Liu, All Rights Reserved ~ <a href="https://validator.w3.org/check?uri=referer" target="_blank">Valid HTML</a> ~ <a href="https://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
 </footer>
-
 </main>
 </body>
 </html>

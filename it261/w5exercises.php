@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>W3 Exercises</title>
+<title>W5 Exercises</title>
 <meta charset="utf-8">
 <script src="https://use.fontawesome.com/6a71565c22.js"></script>
 <link rel="stylesheet" href="css/nav.css" />
@@ -11,7 +11,7 @@
 <body>
 <main class="wrapper">
 <header>
-  <h1><a href="index.php"><i class="logo fa fa-pencil"></i> W3 Exercises</a></h1>
+  <h1><a href="index.php"><i class="logo fa fa-pencil"></i> W5 Exercises</a></h1>
 <nav id="cssmenu">
     <ul>
       <li><a href="index.php">Welcome</a></li>
@@ -49,7 +49,7 @@
             <li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i>Week6</span></a>
         <ul>
             <li><a href="#"><span>Email</span></a></li>
-            <li><a href="w6exercises.php"><span>W6 Exercises</span></a></li>
+           <li><a href="w6exercises.php"><span>W6 Exercises</span></a></li>
         </ul>
             </li>
         
@@ -72,12 +72,11 @@
         
 <section>
 <h2>Weekly Exercises</h2>
-            <h3>Week 3</h3>
+            <h3>Week 5</h3>
             <ul>
-                <li><a href="week3/arrays.php">arrays.php</a></li>
-                <li><a href="week3/html-page.php">html-page.php</a></li>
-                <li><a href="week3/if.php">if.php</a></li>
-                <li><a href="switch.php">switch.php</a></li>
+                <li><a href="week5/currency-form.php">currency-form.php</a></li>
+                <li><a href="week5/currency-form-sticky.php">currency-form-sticky.php</a></li>
+                <li><a href="week5/currency-form-final.php">currency-form-final.php</a></li>
             </ul>
 </section>
 

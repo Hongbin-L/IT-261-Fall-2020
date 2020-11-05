@@ -46,7 +46,6 @@ footer {
 
 
 @media all and (min-width:1400px) {
-	
    main.wrapper {
 		width: 70%;
 		margin: auto;
@@ -70,3 +69,4 @@ footer {
        		width:100%;
             display:inline-block;
     }
+}

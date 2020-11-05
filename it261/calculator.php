@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>W3 Exercises</title>
+<title>Calculator</title>
 <meta charset="utf-8">
 <script src="https://use.fontawesome.com/6a71565c22.js"></script>
 <link rel="stylesheet" href="css/nav.css" />
@@ -11,7 +11,7 @@
 <body>
 <main class="wrapper">
 <header>
-  <h1><a href="index.php"><i class="logo fa fa-pencil"></i> W3 Exercises</a></h1>
+  <h1><a href="index.php"><i class="logo fa fa-pencil"></i> Calculator</a></h1>
 <nav id="cssmenu">
     <ul>
       <li><a href="index.php">Welcome</a></li>
@@ -71,13 +71,12 @@
 </header>
         
 <section>
-<h2>Weekly Exercises</h2>
-            <h3>Week 3</h3>
+<h2>Calculators</h2>
             <ul>
-                <li><a href="week3/arrays.php">arrays.php</a></li>
-                <li><a href="week3/html-page.php">html-page.php</a></li>
-                <li><a href="week3/if.php">if.php</a></li>
-                <li><a href="switch.php">switch.php</a></li>
+                <li><a href="week5/calculator.php">calculator.php</a></li>
+                <li><a href="week5/calculator-days.php">calculator-days.php</a></li>
+                <li><a href="week5/calculator-days-errors.php">calculator-days-errors.php</a></li>
+                <li><a href="week5/calculator-days-errors-sticky.php">calculator-days-errors-sticky.php</a></li>
             </ul>
 </section>
 
