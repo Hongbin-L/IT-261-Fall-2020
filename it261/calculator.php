@@ -48,15 +48,15 @@
             
             <li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i>Week6</span></a>
         <ul>
-            <li><a href="#"><span>Email</span></a></li>
+            <li><a href="website/contact.php"><span>Email</span></a></li>
             <li><a href="w6exercises.php"><span>W6 Exercises</span></a></li>
         </ul>
             </li>
         
             <li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i>Week7</span></a>
         <ul>
-            <li><a href="#"><span>Gallery</span></a></li>
-            <li><a href="#"><span>W7 Exercises</span></a></li>
+            <li><a href="website/gallery.php"><span>Gallery</span></a></li>
+            <li><a href="w7exercises.php"><span>W7 Exercises</span></a></li>
         </ul>
             </li>
         

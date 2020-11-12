@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Screenshot</title>
+<title>W7 Exercises</title>
 <meta charset="utf-8">
 <script src="https://use.fontawesome.com/6a71565c22.js"></script>
 <link rel="stylesheet" href="css/nav.css" />
@@ -11,13 +11,13 @@
 <body>
 <main class="wrapper">
 <header>
-  <h1><a href="index.php"><i class="logo fa fa-pencil"></i> Screenshot</a></h1>
+  <h1><a href="index.php"><i class="logo fa fa-pencil"></i> W7 Exercises</a></h1>
 <nav id="cssmenu">
     <ul>
       <li><a href="index.php">Welcome</a></li>
       <li><a href="week1.php">Week1</a></li>
         
-        <li><a href="#"><span><i class="fa fa-fw fa-chevron-down" class="selected"></i>Week2</span></a>
+        <li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i>Week2</span></a>
         <ul>
             <li><a href="screenshot.php"><span>Screenshot</span></a></li>
             <li><a href="w2exercises.php"><span>W2 Exercises</span></a></li>
@@ -48,7 +48,7 @@
             
             <li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i>Week6</span></a>
         <ul>
-            <li><a href="website/contact.php"><span>Email</span></a></li>
+           <li><a href="website/contact.php"><span>Email</span></a></li>
             <li><a href="w6exercises.php"><span>W6 Exercises</span></a></li>
         </ul>
             </li>
@@ -71,21 +71,12 @@
 </header>
         
 <section>
-<h2>MAMP Screenshot</h2>
-     <div>
-                <figure>
-                    <a href="images/mamp.JPG" >
-                    <img src="images/mamp.JPG"  class="desktop" alt="" />
-                    </a>
-               </figure>
-         
-<h2>Display Errors Screenshot</h2>
-                <figure>
-                    <a href="images/display_error.JPG">
-                    <img src="images/display_error.JPG" class="desktop" alt="" />
-                    </a>
-               </figure>
-    </div>
+<h2>Weekly Exercises</h2>
+            <h3>Week 7</h3>
+            <ul>
+                <li><a href="week7/substr-str_replace.php">substr-str_replace.php</a></li>
+                <li><a href="website/gallery.php">gallery.php</a></li>
+            </ul>
 </section>
 
 <footer>

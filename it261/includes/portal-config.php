@@ -71,10 +71,10 @@ switch(THIS_PAGE){
         $PageID = 'W5 Exercises';
     break;
         
-    case 'week6.php':
-        $title = "Week6";
+    case 'contact.php':
+        $title = "Email";
         $logo = "fa-pencil";
-        $PageID = 'Week6';
+        $PageID = 'Email';
     break;
         
     case 'w6exercises.php':
@@ -83,10 +83,16 @@ switch(THIS_PAGE){
         $PageID = 'W6 Exercises';
     break;
         
-    case 'week7.php':
-        $title = "Week7";
+    case 'gallery.php':
+        $title = "Gallery";
         $logo = "fa-pencil";
-        $PageID = 'Week7';
+        $PageID = 'Gallery';
+    break;
+        
+    case 'w7exercises.php':
+        $title = "W7 Exercises";
+        $logo = "fa-pencil";
+        $PageID = 'W7 Exercises';
     break;
         
     case 'week8.php':
@@ -110,9 +116,10 @@ $nav1['troubleshoot.php'] = "Troubleshoot";
 $nav1['w4exercises.php'] = "W4 Exercises";
 $nav1['calculator.php'] = "Calculato";
 $nav1['w5exercises.php'] = "W5 Exercises";
-$nav1['week6.php'] = "Week6";
+$nav1['contact.php'] = "Email";
 $nav1['w6exercises.php'] = "W6 Exercises";
-$nav1['week7.php'] = "Week7";
+$nav1['gallery.php'] = "Gallery";
+$nav1['w7exercises.php'] = "W7 Exercises";
 $nav1['week8.php'] = "Week8";
 
 
