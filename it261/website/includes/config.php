@@ -1,5 +1,10 @@
 <?php
 
+ob_start();
+define('DEBUG', 'TRUE');
+
+include('credentials.php');
+
 define('THIS_PAGE', basename($_SERVER['PHP_SELF']));
 
 $stars['Alioth'] = 'aliot bigdi Epsilon Ursae Majoris';
@@ -33,13 +38,13 @@ switch(THIS_PAGE) {
         $body = 'daily inner';
         break;
         
-        case  'customers.php':
-        $title = 'Our very important customers';
-        $mainHeadline = 'Hello Customers - Good to See You!';
-        $center = 'center';
-        $body = 'customers inner';
+        case  'database.php':
+        $title = 'Big Dipper';
+        $mainHeadline = 'Welcome to learn about Big Dipper!';
+//        $center = 'center';
+        $body = 'database inner';
         break;
-        
+
         case  'contact.php':
         $title = 'Contact us today!';
         $mainHeadline = 'Welcome to our Contact Page!';
@@ -65,7 +70,7 @@ switch(THIS_PAGE) {
 $nav['index.php'] = 'Home';
 $nav['about.php'] = 'About';
 $nav['daily.php'] = 'Daily';
-$nav['customer.php'] = 'Customers';
+$nav['database.php'] = 'BigDipper';
 $nav['contact.php'] = 'Contact';
 $nav['gallery.php'] = 'Gallery';
 
@@ -256,17 +261,17 @@ $tel = $_POST['tel'];
         
     }
 
-//function myerror($myFile, $myLine, $errorMsg) {
-//    
-//    if(defined('DEBUG') && DEBUG) {
-//        
-//        echo 'Error in file: <b> '.$myFile.' </b> on line: <b> '.$myLine.' </b>';
-//        echo 'Error message: <b> '.$errorMsg.' </b>';
-//        die();
-//    } else {
-//        echo 'Houston, we have a problem!';
-//        die();
-//    }
-//}
+function myerror($myFile, $myLine, $errorMsg) {
+    
+    if(defined('DEBUG') && DEBUG) {
+        
+        echo 'Error in file: <b> '.$myFile.' </b> on line: <b> '.$myLine.' </b>';
+        echo 'Error message: <b> '.$errorMsg.' </b>';
+        die();
+    } else {
+        echo 'Houston, we have a problem!';
+        die();
+    }
+}
 
 ?>

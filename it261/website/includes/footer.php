@@ -14,8 +14,8 @@
             ?></li>
         <li>All Rights Reserved</li>
         <li><a href="">Web Design by Hongbin</a></li>
-        <li><a href="">HTML</a></li>
-        <li><a href="">CSS</a></li>
+        <li><a href="https://validator.w3.org/check?uri=referer">HTML</a></li>
+        <li><a href="https://jigsaw.w3.org/css-validator/check?uri=referer">CSS</a></li>
         </ul>
     
     </footer>

@@ -17,7 +17,6 @@ include('includes/header.php');
         
     <a href="https://github.com/Hongbin-L/IT-261-Fall-2020/tree/circleci-project-setup/it261/website">Here is my EXTRA CREDIT LINK link to my Github acount showing tou my randImages function (index.php and config.php)</a>
     
-
  <?php
 include('includes/footer.php');
 ?>

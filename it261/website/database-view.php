@@ -1,14 +1,14 @@
 <?php
 
-include('config.php');
+include('includes/config.php');
 
 if(isset($_GET['id'])) {
     $id = (int)$_GET['id'];
 }  else {
-    header('Location:people.php');
+    header('Location:database.php');
 }
 
-$sql = 'SELECT * FROM People WHERE PeopleID = '.$id.'';
+$sql = 'SELECT * FROM BigDipper WHERE StarID = '.$id.'';
 
 $iConn = @mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) or die(myerror(__FILE__,__LINE__,mysqli_connect_error()));
 
@@ -17,37 +17,34 @@ $result = mysqli_query($iConn,$sql) or die(myerror(__FILE__,__LINE__,mysqli_erro
 if(mysqli_num_rows($result) > 0) {
 
 while($row = mysqli_fetch_assoc($result)) {
-    $FirstName = stripslashes($row['FirstName']);
-    $LasttName = stripslashes($row['LastName']);
-    $Occupation = stripslashes($row['Occupation']);
-    $Email = stripslashes($row['Email']);
-    $BirthDate = stripslashes($row['BirthDate']);
-    $Description = stripslashes($row['Description']);
+    $Name = stripslashes($row['Name']);
+    $Designation = stripslashes($row['Designation']);
+    $Magnitude = stripslashes($row['Magnitude']);
+    $Distance = stripslashes($row['Distance']);
+    $Introduce = stripslashes($row['Introduce']);
     $Feedback = '';
 }
     
 } else {
-    $Feedback = 'Sorry, no candidates - they are partying';
+    $Feedback = 'Sorry!';
 }
 
-include('include/header.php'); ?>
-
+include('includes/header.php'); ?>
+    <div id="wrapper">
 <main>
-<h2>Welcome to <?php echo $FirstName;?>'s Page</h2>
+<h2>Welcome to <?php echo $Name;?>'s Page</h2>
 <?php
 if($Feedback == '') {
     echo '<ul>';
-    echo '<li><b>First Name:</b> '.$FirstName.' </li>';
-    echo '<li><b>Last Name:</b> '.$LastName.' </li>';
-    echo '<li><b>Occupation:</b> '.$Occupation.' </li>';
-    echo '<li><b>Email:</b> '.$Email.' </li>';
-    echo '<li><b>Birthdate:</b> '.$BirthDate.' </li>';
+    echo '<li><b>Name:</b> '.$Name.' </li>';
+    echo '<li><b>Designation:</b> '.$Designation.' </li>';
+    echo '<li><b>Magnitude:</b> '.$Magnitude.' </li>';
+    echo '<li><b>Distance:</b> '.$Distance.' </li>';
     echo '</ul>';
-    echo '<p>'.$Description.'</p>';
+    echo '<p>'.$Introduce.'</p>';
+    echo '<p><a href="database.php">Go back to the big dipper page!</a></p>';
 }    else{
     echo $Feedback;
-    echo'<br>';
-echo '<p><a href="people.php">Go back to the people page!</a></p>';
 }
 
 ?>
@@ -56,7 +53,7 @@ echo '<p><a href="people.php">Go back to the people page!</a></p>';
 <aside>
 <?php
     if($Feedback == '') {
-        echo'<img src="uploads/people'.$id.'.jpg" alt="'.$FirstName.'">';
+        echo'<img src="uploads/star'.$id.'.jpg" alt="'.$Name.'">';
     } else {
         echo $Feedback;
     }
@@ -69,6 +66,6 @@ echo '<p><a href="people.php">Go back to the people page!</a></p>';
 </aside>
 
 <?php
-include('include/footer.php');
+include('includes/footer.php');
     
     

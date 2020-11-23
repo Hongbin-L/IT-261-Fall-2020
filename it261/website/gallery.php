@@ -29,7 +29,6 @@ include('includes/header.php');
     <?php endforeach ; ?>
     </table>
     </main>
-        
 <aside>
     <h3>This is my headline 3 on the gallery page</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eleifend lacus nec consequat malesuada. Nunc vel ligula eget velit congue venenatis. Ut leo lectus, ornare vel est eu, ornare venenatis metus. Nunc vitae neque dictum dui porttitor blandit dignissim non lacus. Fusce sit amet hendrerit enim.</p>
