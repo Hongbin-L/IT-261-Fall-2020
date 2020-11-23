@@ -2,6 +2,18 @@
 
 define('THIS_PAGE', basename($_SERVER['PHP_SELF']));
 
+$people['Donald_Trump'] = 'trump President from NY.';
+$people['Joe_Biden'] = 'biden Vice President from PA.';
+$people['Hilary_Clinton'] = 'clint_Secretary from NY.';
+$people['Bernie_Sanders'] = 'sande_Senator from VT.';
+$people['Elizabeth_Warren'] = 'warre_Senator from MA.';
+$people['Kamala_Harris'] = 'harri_Senator from CA.';
+$people['Cory_Booker'] = 'booke_Senator from NJ.';
+$people['Andrew_Yang'] = 'ayang_Entrepreneur from NY.';
+$people['Pete_Buttigieg'] = 'butti_Mayor from IN.';
+$people['Amy_Klobuchar'] = 'klobu_Senator from MN.';
+$people['DJulian_Castro'] = 'castr_Housing/Urban from TX.';
+
 switch(THIS_PAGE) {
     case  'index.php':
         $title = 'Homepage for our new website';
@@ -91,6 +103,25 @@ $photos[4] = 'mizar';
 $i = rand(0, count($photos)-1);
 $randImages = '../../images/'.$photos[$i].'.jpg';
 echo '<img src="'.$randImages.'">';
+}
+
+function randImages2($candidates){
+
+$candidates[0] = 'trump';
+$candidates[1] = 'biden';
+$candidates[2] = 'clint';
+$candidates[3] = 'sande';
+$candidates[4] = 'warre';
+$candidates[5] = 'harri';
+$candidates[6] = 'booke';
+$candidates[7] = 'ayang';
+$candidates[8] = 'butti';
+$candidates[9] = 'klobu';
+$candidates[10] = 'castr';
+    
+$i = rand(0, count($candidates)-1);
+$randImages2 = 'images/'.$candidates[$i].'.jpg';
+echo '<img src="'.$randImages2.'">';
 }
 /* Form php*/
 

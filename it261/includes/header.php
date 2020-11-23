@@ -87,10 +87,11 @@
         
                <li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i>Week8</span></a>
         <ul>
-            <li><a href=""><span>Database</span></a></li>
-            <li><a href="w8exercises.php"><span>W8 Exercises</span></a></li>
+            <li><a href="database.php"><span>Database</span></a></li>
+            <li><a href="w8exercises.php"><span>W8 Exercis.phpes</span></a></li>
         </ul>
             </li>
+        <li><a href="website/index.php" class="selected">Website</a></li>
     </ul>
 </nav>
     

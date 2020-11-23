@@ -2,17 +2,13 @@
 
 define('THIS_PAGE', basename($_SERVER['PHP_SELF']));
 
-$people['Donald_Trump'] = 'trump President from NY.';
-$people['Joe_Biden'] = 'biden Vice President from PA.';
-$people['Hilary_Clinton'] = 'clint_Secretary from NY.';
-$people['Bernie_Sanders'] = 'sande_Senator from VT.';
-$people['Elizabeth_Warren'] = 'warre_Senator from MA.';
-$people['Kamala_Harris'] = 'harri_Senator from CA.';
-$people['Cory_Booker'] = 'booke_Senator from NJ.';
-$people['Andrew_Yang'] = 'ayang_Entrepreneur from NY.';
-$people['Pete_Buttigieg'] = 'butti_Mayor from IN.';
-$people['Amy_Klobuchar'] = 'klobu_Senator from MN.';
-$people['DJulian_Castro'] = 'castr_Housing/Urban from TX.';
+$stars['Alioth'] = 'aliot bigdi Epsilon Ursae Majoris';
+$stars['Alkaid'] = 'alkai bigdi Eta Ursae Majoris ';
+$stars['Dubhe'] = 'dubhe bigdi Alpha Ursae Majoris';
+$stars['Magrez'] = 'megre bigdi_Delta Ursae Majoris';
+$stars['Merak'] = 'merak bigdi_Beta Ursae Majoris';
+$stars['Mizar'] = 'mizar bigdi_Mizar /ˈmaɪzɑːr/ is a second-magnitude star';
+$stars['Phecda'] = 'phecd bigdi_Gamma Ursae Majoris';
 
 
 switch(THIS_PAGE) {
@@ -108,17 +104,13 @@ echo '<img src="'.$randImages.'">';
 
 function randImages2($candidates){
 
-$candidates[0] = 'trump';
-$candidates[1] = 'biden';
-$candidates[2] = 'clint';
-$candidates[3] = 'sande';
-$candidates[4] = 'warre';
-$candidates[5] = 'harri';
-$candidates[6] = 'booke';
-$candidates[7] = 'ayang';
-$candidates[8] = 'butti';
-$candidates[9] = 'klobu';
-$candidates[10] = 'castr';
+$candidates[0] = 'aliot';
+$candidates[1] = 'alkai';
+$candidates[2] = 'dubhe';
+$candidates[3] = 'megre';
+$candidates[4] = 'merak';
+$candidates[5] = 'mizar';
+$candidates[6] = 'phecd';
     
 $i = rand(0, count($candidates)-1);
 $randImages2 = 'images/'.$candidates[$i].'.jpg';

@@ -118,6 +118,12 @@ switch(THIS_PAGE){
         $PageID = 'W8 Exercises';
     break;
         
+    case 'website/index.php':
+        $title = "Website";
+        $logo = "fa-pencil";
+        $PageID = 'Website';
+    break;
+        
     default:    
     $title = THIS_PAGE;    
     $logo = '';
@@ -139,6 +145,7 @@ $nav1['gallery.php'] = "Gallery";
 $nav1['w7exercises.php'] = "W7 Exercises";
 $nav1['database.php'] = "Database";
 $nav1['w8exercises.php'] = "W8 Exercises";
+$nav1['website/index.php'] = "Website";
 
 function makeLinks($linkArray)
 {
