@@ -6,7 +6,7 @@ include('includes/header.php');
 
     <div id="wrapper">
         
-<main>
+
     <h1><?php  echo $mainHeadline;  ?></h1>
 <!--        <img src="../../images/alioth.jpg" alt="Alioth">-->
     <table class="candidates">
@@ -25,7 +25,7 @@ include('includes/header.php');
         
     <?php endforeach ; ?>
     </table>
-    </main>
+
         
 <aside>
     <h3>This is my headline 3 on the gallery page</h3>

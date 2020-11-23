@@ -1,17 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Hongbin Liu's Portal</title>
+<title><?php echo $title; ?></title>
 <meta charset="utf-8">
 <script src="https://use.fontawesome.com/6a71565c22.js"></script>
 <link rel="stylesheet" href="css/nav.css" />
 <link rel="stylesheet" href="css/portal.css" />
 </head>
-
+<style>
+   #cssmenu ul{
+        background-color : <?php echo $color;   ?>;
+    }
+    
+    .logo {
+        color: <?php echo $color;   ?>;
+    }
+    
+    #cssmenu ul li:hover{
+        color: <?php echo $colorDark;   ?>;
+    }
+    
+    #cssmenu ul li:hover a{
+        color: <?php echo $colorDark;   ?>;
+    }
+    #cssmenu ul li:hover ul li{
+        background-color: <?php echo $color;   ?>;
+    }
+    #cssmenu ul li:hover ul li:hover{
+         background-color: <?php echo $colorDark;   ?>;
+    }
+    footer {
+        background-color: <?php echo $color;   ?>;
+    }
+</style>
 <body>
 <main class="wrapper">
 <header>
-  <h1><a href="index.php"><i class="logo fa fa-home"></i> Hongbin Liu's Portal</a></h1>
+  <h1><i class="logo fa <?php echo $logo; ?>"></i><?php echo $PageID; ?></h1>
 <nav id="cssmenu">
     <ul>
       <li><a href="index.php" class="selected">Welcome</a></li>
@@ -28,7 +53,7 @@
             
         <ul>
             <li><a href="switch.php"><span>Switch</span></a></li>
-            <li><a href="wexercises.php"><span>W3 Exercises</span></a></li>
+            <li><a href="w3exercises.php"><span>W3 Exercises</span></a></li>
         </ul>
         </li>
         
@@ -55,20 +80,18 @@
         
             <li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i>Week7</span></a>
         <ul>
-            <li><a href="website/gallery.php"><span>Gallery</span></a></li>
+            <li><a href="gallery.php"><span>Gallery</span></a></li>
             <li><a href="w7exercises.php"><span>W7 Exercises</span></a></li>
         </ul>
             </li>
         
                <li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i>Week8</span></a>
         <ul>
-            <li><a href="#"><span>Database</span></a></li>
-            <li><a href="#"><span>W8 Exercises</span></a></li>
+            <li><a href=""><span>Database</span></a></li>
+            <li><a href="w8exercises.php"><span>W8 Exercises</span></a></li>
         </ul>
             </li>
     </ul>
-  </nav>
-</header>
+</nav>
     
-<section>
- <h2 class="pageID">Welcome</h2>
+</header>

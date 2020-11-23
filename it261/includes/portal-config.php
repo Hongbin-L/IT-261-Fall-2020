@@ -1,4 +1,15 @@
+
 <?php
+
+define('THIS_PAGE', basename($_SERVER['PHP_SELF']));
+
+$stars['Alioth'] = 'aliot bigdi Epsilon Ursae Majoris';
+$stars['Alkaid'] = 'alkai bigdi Eta Ursae Majoris ';
+$stars['Dubhe'] = 'dubhe bigdi Alpha Ursae Majoris';
+$stars['Magrez'] = 'megre bigdi_Delta Ursae Majoris';
+$stars['Merak'] = 'merak bigdi_Beta Ursae Majoris';
+$stars['Mizar'] = 'mizar bigdi_Mizar /ˈmaɪzɑːr/ is a second-magnitude star';
+$stars['Phecda'] = 'phecd bigdi_Gamma Ursae Majoris';
 
 ob_start();
 
@@ -62,7 +73,7 @@ switch(THIS_PAGE){
     case 'calculator.php':
         $title = "Calculator";
         $logo = "fa-pencil";
-        $PageID = 'Calculato';
+        $PageID = 'Calculator';
     break;
         
     case 'w5exercises.php':
@@ -95,10 +106,16 @@ switch(THIS_PAGE){
         $PageID = 'W7 Exercises';
     break;
         
-    case 'week8.php':
-        $title = "Week8";
+    case 'database.php':
+        $title = "Database";
         $logo = "fa-pencil";
-        $PageID = 'Week8';
+        $PageID = 'Database';
+    break;
+        
+    case 'w8exercises.php':
+        $title = "W8 Exercises";
+        $logo = "fa-pencil";
+        $PageID = 'W8 Exercises';
     break;
         
     default:    
@@ -120,8 +137,8 @@ $nav1['contact.php'] = "Email";
 $nav1['w6exercises.php'] = "W6 Exercises";
 $nav1['gallery.php'] = "Gallery";
 $nav1['w7exercises.php'] = "W7 Exercises";
-$nav1['week8.php'] = "Week8";
-
+$nav1['database.php'] = "Database";
+$nav1['w8exercises.php'] = "W8 Exercises";
 
 function makeLinks($linkArray)
 {
