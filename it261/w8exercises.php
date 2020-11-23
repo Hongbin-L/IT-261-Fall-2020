@@ -6,10 +6,9 @@ include('includes/header.php');
         
 <section>
 <h2>Weekly Exercises</h2>
-            <h3>Week 7</h3>
+            <h3>Week 8</h3>
             <ul>
-                <li><a href="week7/substr-str_replace.php">substr-str_replace.php</a></li>
-                <li><a href="website/gallery.php">gallery.php</a></li>
+                <li><a href="week8/people.php">people.php</a></li>
             </ul>
 </section>
 
