@@ -1,0 +1,155 @@
+ * {
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.center {
+    text-align: center;  
+    }
+
+
+#logo {
+    width: 55px;  
+}
+
+h1{
+    background-color: rgba(0, 0, 0, 0.48);
+    text-align: center;
+    padding: 1em;
+    color: #9370db;
+}
+
+.cantact {
+    background: none;
+}
+
+header{
+    background-image: url(../images/bg4.jpg);
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+}
+
+#wrapper {
+    clear: both;
+    width: 940px;
+    margin: 50px auto;
+}
+
+main {
+    width: 580px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 200px;
+}
+
+aside{
+    width:340px;
+    float: right;
+    margin-bottom: 100px;
+    
+}
+
+footer {
+    background-image: url(../images/bg4.jpg);
+    background-size: cover;
+    clear:both;
+    padding: 1em;
+    text-align:center;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+/*Form css*/
+
+form {
+    max-width: 580px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+        
+input {
+    margin-bottom: 10px;
+}
+    
+input[type=text],
+input[text=email],
+input[text=tel],
+textarea {
+    width: 100%;
+    height: 30px;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    margin-right: 10px;
+}
+
+input[type=submit] {
+    margin-top: 10px;
+}
+
+textarea{
+    height: 120px;
+    margin-bottom: 10px;
+}
+        
+fieldset {
+    color: #666;
+    padding: 10px 15px 10px 10px;
+}
+        
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+        
+.box {
+    width: 600px;
+    margin: 20px auto;
+    background: beige;
+    padding: 20px;
+}
+        
+select {
+    margin-bottom: 10px;
+}
+        
+form ul {
+    list-style-type: none;
+    margin-left: 30px;
+}
+        
+span {
+    display: block;
+    color: red;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+@media all and (max-width:1199px) {
+header{
+    background: url(../images/pbg1.jpg);
+    background-size: cover;
+}    
+
+    
+footer {
+    background: url(../images/pbg1.jpg);
+    clear:both;
+    text-align:center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+    
+}
