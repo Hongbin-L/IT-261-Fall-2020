@@ -134,19 +134,23 @@ span {
 li {
     list-style: none;
 }
-
 @media all and (max-width:1199px) {
 header{
     background: url(../images/pbg1.jpg);
     background-size: cover;
-}    
-
+}
+    
+html {
+    background: none;  
+    }
     
 footer {
     background: url(../images/pbg1.jpg);
+    background-size: cover;
     clear:both;
+    padding: 1em;
     text-align:center;
-    position: fixed;
+    position:fixed;
     bottom: 0;
     width: 100%;
     color: white;
