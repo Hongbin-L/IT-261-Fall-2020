@@ -4,7 +4,6 @@ include('includes/header-fp-home.php');
 
 
 ?>
-
 <div class="login">
 <h2>Register Today!</h2>
 </div>
